@@ -45,8 +45,8 @@ empty_line()[
 
 text_section_pi()[
     T Pi er en matematisk konstant
-    T Det er forholdet imellem en cirkels omkreds og dens diameter
-    T Det vil sige længden divideret med omkredsen
+    T det er forholdet imellem en cirkels omkreds og dens diameter,
+    T det vil sige længden divideret med omkredsen
     T PI's tegn er π
     T PI's værdi er 3,1415926535
     T Den har et uendelig mængde af decimaler
@@ -54,21 +54,21 @@ text_section_pi()[
 ]
 
 text_section_tau()[
-    T Tau er det dobbelte af pi
-    T I stedet for at være 3.14(afrundet) er tau 6.28(afrundet)
+    T Tau er det dobbelte af pi,
+    T i stedet for at være 3.14(afrundet) er tau 6.28(afrundet)
     T Tau's tegn er 𝜏
     empty_line()
 ]
 
 text_section_radiant()[
-    T Radiant er en anden måde at finde graderne i en cirkel
-    T I stedet for at slutte med 360°, slutter Radiant med 2π(pi) eller 𝜏(tau)
+    T Radiant er en anden måde at finde graderne i en cirkel,
+    T i stedet for at slutte med 360°, slutter Radiant med 2π(pi) eller 𝜏(tau).
     T Man kan gøre grader om til Radiant ved at bruge den her formel:
     T d = grader
     S clear
     I Radiant_pi.PNG
     text_style()
-    T Eller hvis man heller vil bruge tau
+    T Hvis man heller vil bruge tau:
     S clear
     I Radiant_tau.PNG
     text_style()
@@ -76,7 +76,7 @@ text_section_radiant()[
 ]
 
 text_section_sinus()[
-    T Sinus er forholdet mellem den modstående katete og trekantens hypotenuse
+    T Sinus er forholdet mellem den modstående katete og trekantens hypotenuse.
     T Sinus kan omtrentlig gøres om til den her simple serie!
     T r = Radiant
     S clear
@@ -86,7 +86,7 @@ text_section_sinus()[
     empty_line()
 ]
 text_section_cosiuns()[
-    T Cosinus er forholdet mellem trekantens hypotenuse og den hosliggende katete
+    T Cosinus er forholdet mellem trekantens hypotenuse og den hosliggende katete.
     T Cosinus kan omtrentlig gøres om til den her simple serie!
     T r = Radiant
     S clear
