@@ -1,0 +1,170 @@
+text_style()[
+    S clear
+    S align text left
+    S color black
+    S font size 125%
+    S width 100%
+    S margin 1px
+]
+underline()[
+    S clear
+    S margin auto
+    S height 1px
+    S width 49%
+    S border width 1px
+    S border style solid
+    S background color black
+    S color black
+    T  
+]
+text_box_style()[
+    S clear  
+    S background color white
+    S margin 4px
+    S border style inset
+    S width 100%
+    S margin auto
+]
+title_style()[
+    S clear
+    S margin 4px
+    S font weight bold
+    S width 50%
+    S align text center
+    S color black
+    S font size 200%
+    S margin 1px
+]
+
+empty_line()[
+    S clear
+    S height 10px
+    T  
+    S clear
+]
+
+text_section_pi()[
+    T Pi er en matematisk konstant
+    T Det er forholdet imellem en cirkels omkreds og dens diameter
+    T Det vil sige længden divideret med omkredsen
+    T PI's tegn er π
+    T PI's værdi er 3,1415926535
+    T Den har et uendelig mængde af decimaler
+    empty_line()
+]
+
+text_section_tau()[
+    T Tau er det dobbelte af pi
+    T I stedet for at være 3.14(afrundet) er tau 6.28(afrundet)
+    T Tau's tegn er 𝜏
+    empty_line()
+]
+
+text_section_radiant()[
+    T Radiant er en anden måde at finde graderne i en cirkel
+    T I stedet for at slutte med 360°, slutter Radiant med 2π(pi) eller 𝜏(tau)
+    T Man kan gøre grader om til Radiant ved at bruge den her formel:
+    T d = grader
+    S clear
+    I Radiant_pi.PNG
+    text_style()
+    T Eller hvis man heller vil bruge tau
+    S clear
+    I Radiant_tau.PNG
+    text_style()
+    empty_line()
+]
+
+text_section_sinus()[
+    T Sinus kan omskrives til den her simple serie!
+    T r = Radiant
+    S clear
+    I Sin_serie.png
+    text_style()
+    T Hvor flere gange man følger serien vil tallet bliver mere og mere præcist.
+    empty_line()
+]
+text_section_cosiuns()[
+    T Cosinus kan omskrives til den her simple serie!
+    T r = Radiant
+    S clear
+    I Cos_serie.png
+    text_style()
+    T Hvor flere gange man følger serien vil tallet bliver mere og mere præcist.
+    empty_line()
+]
+under_title_style()[
+    empty_line()
+    S clear
+    S margin 4px
+    S font weight bold
+    S width 100%
+    S align text left
+    S color black
+    S font size 135%
+]
+
+S width 100%
+S margin 0px
+S padding left 0px
+S background color lightgray
+S box start
+
+empty_line()
+S width 100%
+S margin auto
+S box start
+
+    title_style()
+        S margin auto
+        T Sinus og Cosinus
+        underline()
+    S clear
+    S width 50%
+    S margin auto
+    S box start
+        
+        under_title_style()
+        T Pi π
+        text_box_style()
+        S box start
+            text_style()
+            text_section_pi()
+        S box end
+
+        under_title_style()
+        T Tau 𝜏
+        text_box_style()
+        S box start
+            text_style()
+            text_section_tau()
+        S box end
+
+        under_title_style()
+        T Radiants ᶜ
+        text_box_style()
+        S box start
+            text_style()
+            text_section_radiant()
+        S box end
+
+        under_title_style()
+        T Sinus
+        text_box_style()
+        S box start
+            text_style()
+            text_section_sinus()
+        S box end
+
+        under_title_style()
+        T Cosinus
+        text_box_style()
+        S box start
+            text_style()
+            text_section_cosiuns()
+        S box end
+
+
+    S box end
+S box end
+S box end
