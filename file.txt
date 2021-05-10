@@ -76,7 +76,8 @@ text_section_radiant()[
 ]
 
 text_section_sinus()[
-    T Sinus kan omskrives til den her simple serie!
+    T Sinus er forholdet mellem den modstående katete og trekantens hypotenuse
+    T Sinus kan omtrentlig gøres om til den her simple serie!
     T r = Radiant
     S clear
     I Sin_serie.png
@@ -85,7 +86,8 @@ text_section_sinus()[
     empty_line()
 ]
 text_section_cosiuns()[
-    T Cosinus kan omskrives til den her simple serie!
+    T Cosinus er forholdet mellem trekantens hypotenuse og den hosliggende katete
+    T Cosinus kan omtrentlig gøres om til den her simple serie!
     T r = Radiant
     S clear
     I Cos_serie.png
